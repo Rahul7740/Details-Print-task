@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form>
+        <h1>login page</h1>
+        <div class="container">
+            <div class="divs">
+                <label for="fName">First Name</label>
+                <input id="fName" title="enter your first name" type="text" required />
+            </div>
+            <div class="divs">
+                <label for="lName">Last Name</label>
+                <input id="lName" type="text"title="enter your last name" required />
+            </div>
+            <div class="divs">
+                <label for="phone">Phone NO.</label>
+                <input id="phone" type="tel" title="enter your phone no." required />
+            </div>
+            <div class="divs">
+                <label for="email">Email ID</label>
+                <input id="email" type="email" title="enter your email ID" required />
+            </div>
+        </div>
+        <button class="submit">submit</button>
+        <p class="faild"></p>
+    </form>
+    <table width="100%" border="1">
+        <thead>
+            <tr>
+                <th>F-Name</th>
+                <th>L-Name</th>
+                <th>PHONE</th>
+                <th>EMAIL</th>
+                <th>D</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+        </tbody>
+        
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
